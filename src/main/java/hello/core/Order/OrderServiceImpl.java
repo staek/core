@@ -6,8 +6,6 @@ import hello.core.member.MemberRepository;
 
 public class OrderServiceImpl implements OrderService {
 
-    //private final MemberRepository memberRepository = new MemoryMemberRepository();
-    //private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
 
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
@@ -24,4 +22,5 @@ public class OrderServiceImpl implements OrderService {
 
         return new Order(memberId, itemName, itemPrice, discountPrice);
     }
+
 }
