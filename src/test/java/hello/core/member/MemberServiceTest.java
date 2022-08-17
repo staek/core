@@ -1,7 +1,6 @@
 package hello.core.member;
 
-import com.sun.source.tree.AssertTree;
-import hello.core.Order.AppConfig;
+import hello.core.AppConfig;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
